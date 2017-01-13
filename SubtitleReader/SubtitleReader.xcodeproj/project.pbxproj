@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6A369091E298EAB00A8F200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A369081E298EAB00A8F200 /* AppDelegate.swift */; };
+		A6A3690B1E298EAB00A8F200 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A3690A1E298EAB00A8F200 /* ViewController.swift */; };
+		A6A3690D1E298EAB00A8F200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A3690C1E298EAB00A8F200 /* Assets.xcassets */; };
+		A6A369101E298EAB00A8F200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A3690E1E298EAB00A8F200 /* Main.storyboard */; };
+		A6A3691B1E298EAB00A8F200 /* SubtitleReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A3691A1E298EAB00A8F200 /* SubtitleReaderTests.swift */; };
+		A6A369261E298EAB00A8F200 /* SubtitleReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A369251E298EAB00A8F200 /* SubtitleReaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6A369171E298EAB00A8F200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6A368FD1E298EAB00A8F200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A369041E298EAB00A8F200;
+			remoteInfo = SubtitleReader;
+		};
+		A6A369221E298EAB00A8F200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6A368FD1E298EAB00A8F200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A369041E298EAB00A8F200;
+			remoteInfo = SubtitleReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6A369051E298EAB00A8F200 /* SubtitleReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubtitleReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A369081E298EAB00A8F200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6A3690A1E298EAB00A8F200 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6A3690C1E298EAB00A8F200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6A3690F1E298EAB00A8F200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6A369111E298EAB00A8F200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A369161E298EAB00A8F200 /* SubtitleReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubtitleReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A3691A1E298EAB00A8F200 /* SubtitleReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleReaderTests.swift; sourceTree = "<group>"; };
+		A6A3691C1E298EAB00A8F200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A369211E298EAB00A8F200 /* SubtitleReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubtitleReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A369251E298EAB00A8F200 /* SubtitleReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleReaderUITests.swift; sourceTree = "<group>"; };
+		A6A369271E298EAB00A8F200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A369021E298EAB00A8F200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A369131E298EAB00A8F200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A3691E1E298EAB00A8F200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6A368FC1E298EAB00A8F200 = {
+			isa = PBXGroup;
+			children = (
+				A6A369071E298EAB00A8F200 /* SubtitleReader */,
+				A6A369191E298EAB00A8F200 /* SubtitleReaderTests */,
+				A6A369241E298EAB00A8F200 /* SubtitleReaderUITests */,
+				A6A369061E298EAB00A8F200 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A369061E298EAB00A8F200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A369051E298EAB00A8F200 /* SubtitleReader.app */,
+				A6A369161E298EAB00A8F200 /* SubtitleReaderTests.xctest */,
+				A6A369211E298EAB00A8F200 /* SubtitleReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A369071E298EAB00A8F200 /* SubtitleReader */ = {
+			isa = PBXGroup;
+			children = (
+				A6A369081E298EAB00A8F200 /* AppDelegate.swift */,
+				A6A3690A1E298EAB00A8F200 /* ViewController.swift */,
+				A6A3690C1E298EAB00A8F200 /* Assets.xcassets */,
+				A6A3690E1E298EAB00A8F200 /* Main.storyboard */,
+				A6A369111E298EAB00A8F200 /* Info.plist */,
+			);
+			path = SubtitleReader;
+			sourceTree = "<group>";
+		};
+		A6A369191E298EAB00A8F200 /* SubtitleReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6A3691A1E298EAB00A8F200 /* SubtitleReaderTests.swift */,
+				A6A3691C1E298EAB00A8F200 /* Info.plist */,
+			);
+			path = SubtitleReaderTests;
+			sourceTree = "<group>";
+		};
+		A6A369241E298EAB00A8F200 /* SubtitleReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6A369251E298EAB00A8F200 /* SubtitleReaderUITests.swift */,
+				A6A369271E298EAB00A8F200 /* Info.plist */,
+			);
+			path = SubtitleReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6A369041E298EAB00A8F200 /* SubtitleReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A3692A1E298EAB00A8F200 /* Build configuration list for PBXNativeTarget "SubtitleReader" */;
+			buildPhases = (
+				A6A369011E298EAB00A8F200 /* Sources */,
+				A6A369021E298EAB00A8F200 /* Frameworks */,
+				A6A369031E298EAB00A8F200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SubtitleReader;
+			productName = SubtitleReader;
+			productReference = A6A369051E298EAB00A8F200 /* SubtitleReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6A369151E298EAB00A8F200 /* SubtitleReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A3692D1E298EAB00A8F200 /* Build configuration list for PBXNativeTarget "SubtitleReaderTests" */;
+			buildPhases = (
+				A6A369121E298EAB00A8F200 /* Sources */,
+				A6A369131E298EAB00A8F200 /* Frameworks */,
+				A6A369141E298EAB00A8F200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6A369181E298EAB00A8F200 /* PBXTargetDependency */,
+			);
+			name = SubtitleReaderTests;
+			productName = SubtitleReaderTests;
+			productReference = A6A369161E298EAB00A8F200 /* SubtitleReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6A369201E298EAB00A8F200 /* SubtitleReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A369301E298EAB00A8F200 /* Build configuration list for PBXNativeTarget "SubtitleReaderUITests" */;
+			buildPhases = (
+				A6A3691D1E298EAB00A8F200 /* Sources */,
+				A6A3691E1E298EAB00A8F200 /* Frameworks */,
+				A6A3691F1E298EAB00A8F200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6A369231E298EAB00A8F200 /* PBXTargetDependency */,
+			);
+			name = SubtitleReaderUITests;
+			productName = SubtitleReaderUITests;
+			productReference = A6A369211E298EAB00A8F200 /* SubtitleReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A368FD1E298EAB00A8F200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Copyleft;
+				TargetAttributes = {
+					A6A369041E298EAB00A8F200 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					A6A369151E298EAB00A8F200 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6A369041E298EAB00A8F200;
+					};
+					A6A369201E298EAB00A8F200 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6A369041E298EAB00A8F200;
+					};
+				};
+			};
+			buildConfigurationList = A6A369001E298EAB00A8F200 /* Build configuration list for PBXProject "SubtitleReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6A368FC1E298EAB00A8F200;
+			productRefGroup = A6A369061E298EAB00A8F200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A369041E298EAB00A8F200 /* SubtitleReader */,
+				A6A369151E298EAB00A8F200 /* SubtitleReaderTests */,
+				A6A369201E298EAB00A8F200 /* SubtitleReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A369031E298EAB00A8F200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A3690D1E298EAB00A8F200 /* Assets.xcassets in Resources */,
+				A6A369101E298EAB00A8F200 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A369141E298EAB00A8F200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A3691F1E298EAB00A8F200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A369011E298EAB00A8F200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A3690B1E298EAB00A8F200 /* ViewController.swift in Sources */,
+				A6A369091E298EAB00A8F200 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A369121E298EAB00A8F200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A3691B1E298EAB00A8F200 /* SubtitleReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A3691D1E298EAB00A8F200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A369261E298EAB00A8F200 /* SubtitleReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6A369181E298EAB00A8F200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A369041E298EAB00A8F200 /* SubtitleReader */;
+			targetProxy = A6A369171E298EAB00A8F200 /* PBXContainerItemProxy */;
+		};
+		A6A369231E298EAB00A8F200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A369041E298EAB00A8F200 /* SubtitleReader */;
+			targetProxy = A6A369221E298EAB00A8F200 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6A3690E1E298EAB00A8F200 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A3690F1E298EAB00A8F200 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6A369281E298EAB00A8F200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6A369291E298EAB00A8F200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A6A3692B1E298EAB00A8F200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SubtitleReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bozlo.SubtitleReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A6A3692C1E298EAB00A8F200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SubtitleReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bozlo.SubtitleReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A6A3692E1E298EAB00A8F200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SubtitleReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bozlo.SubtitleReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubtitleReader.app/Contents/MacOS/SubtitleReader";
+			};
+			name = Debug;
+		};
+		A6A3692F1E298EAB00A8F200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SubtitleReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bozlo.SubtitleReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubtitleReader.app/Contents/MacOS/SubtitleReader";
+			};
+			name = Release;
+		};
+		A6A369311E298EAB00A8F200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SubtitleReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bozlo.SubtitleReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SubtitleReader;
+			};
+			name = Debug;
+		};
+		A6A369321E298EAB00A8F200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SubtitleReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bozlo.SubtitleReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SubtitleReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A369001E298EAB00A8F200 /* Build configuration list for PBXProject "SubtitleReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A369281E298EAB00A8F200 /* Debug */,
+				A6A369291E298EAB00A8F200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A3692A1E298EAB00A8F200 /* Build configuration list for PBXNativeTarget "SubtitleReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A3692B1E298EAB00A8F200 /* Debug */,
+				A6A3692C1E298EAB00A8F200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6A3692D1E298EAB00A8F200 /* Build configuration list for PBXNativeTarget "SubtitleReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A3692E1E298EAB00A8F200 /* Debug */,
+				A6A3692F1E298EAB00A8F200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6A369301E298EAB00A8F200 /* Build configuration list for PBXNativeTarget "SubtitleReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A369311E298EAB00A8F200 /* Debug */,
+				A6A369321E298EAB00A8F200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6A368FD1E298EAB00A8F200 /* Project object */;
+}
